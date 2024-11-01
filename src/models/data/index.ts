@@ -1,0 +1,11 @@
+export type { ActualitiesResponse } from "./Actualities";
+export type { CardsResponse } from "./Cards";
+export type { ContactsBody, ContactsResponse } from "./Contacts";
+export type { ClockingResponse } from "./Clocking";
+export type { FeaturesResponse } from "./Features";
+export type { ImportantsNewsResponse } from "./ImportantsNews";
+export type { MailCalendarResponse } from "./MailCalendar";
+export type { MapCampusResponse, MapCategoriesResponse, MapPointsResponse  } from "./Map";
+export type { RestaurantsResponse, RestaurantMenuResponse } from "./Restaurants";
+export type { ScheduleBody, ScheduleResponse } from "./Schedules";
+export type { UsefulInformationsResponse } from "./Useful";

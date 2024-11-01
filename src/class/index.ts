@@ -1,0 +1,10 @@
+export { Actualities } from './Actualities';
+export { Cards } from './Cards';
+export { Contacts } from './Contacts';
+export { Features } from './Features';
+export { ImportantsNews } from './ImportantsNews';
+export { MailCalendar } from './MailCalendar';
+export { MapCampus, MapCategories, MapPoints } from './Map';
+export { Restaurants, RestaurantMenu } from './Restaurants';
+export { Schedules } from './Schedules';
+export { UsefulInformations } from './Useful';
