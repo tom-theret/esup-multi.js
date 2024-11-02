@@ -7,5 +7,5 @@ export type { ImportantsNewsResponse } from "./ImportantsNews";
 export type { MailCalendarResponse } from "./MailCalendar";
 export type { MapCampusResponse, MapCategoriesResponse, MapPointsResponse  } from "./Map";
 export type { RestaurantsResponse, RestaurantMenuResponse } from "./Restaurants";
-export type { ScheduleBody, ScheduleResponse } from "./Schedules";
+export type { EventResponse, ScheduleBody, ScheduleResponse } from "./Schedules";
 export type { UsefulInformationsResponse } from "./Useful";
