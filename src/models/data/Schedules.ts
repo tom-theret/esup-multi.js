@@ -39,7 +39,7 @@ interface Course {
   color: string;
   type: string;
   online: boolean;
-  url: unknown;
+  url: string;
 }
 
 interface Room {

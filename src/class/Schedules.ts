@@ -23,7 +23,7 @@ export class Schedules implements ScheduleResponse {
         color: string;
         type: string;
         online: boolean;
-        url: unknown;
+        url: string;
       };
       rooms: {
         id: string;
