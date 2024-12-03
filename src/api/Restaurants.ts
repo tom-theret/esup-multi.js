@@ -11,7 +11,7 @@ export const getRestaurants = async(instanceUrl: string): Promise<Restaurants[]>
 }
 
 export const getRestaurantMenu = async(instanceUrl: string, idRestaurant: number, date?: string): Promise<RestaurantMenu[]> => {
-  const response = await MultiFetcher(`${instanceUrl}/restaurants/${idRestaurant}/menu${date ? `?date=${date}` : ""}`, {
+  const response = await MultiFetcher(`${instanceUrl}/restaurant/menus/?id=${idRestaurant}${date ? `&date=${date}` : ""}`, {
     method: "GET",
   });
   const raw = (await response.json()) as RestaurantMenu[];
