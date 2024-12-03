@@ -35,8 +35,6 @@ async function login(instanceUrl, username, password) {
 login("https://example.com", "multi", "api")
     .then(user => console.log(user))
     .catch(error => console.error(error));
-
-main('username', 'password');
 ```
 
 ## ✅ Features
