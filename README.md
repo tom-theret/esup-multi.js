@@ -13,11 +13,7 @@ A simple wrapper to interact with the internal [esup-multi](https://github.com/u
 
 ```bash
 # With npm
-npm install multi-api.js
-# With pnpm
-pnpm add multi-api.js
-# With yarn
-yarn add multi-api.js
+npm install esup-multi.js
 ```
 
 ## 🔧 Usage
